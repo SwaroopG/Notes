@@ -8,3 +8,6 @@
 ### Development
 1. http://jhipster.github.io/installation/ - Install NodeJS, Yeoman, Bower
 2. http://jhipster.github.io/video-tutorial/
+
+
+http://www.ybrikman.com/writing/2015/11/11/running-docker-aws-ground-up/
