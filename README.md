@@ -11,3 +11,8 @@
 
 
 http://www.ybrikman.com/writing/2015/11/11/running-docker-aws-ground-up/
+
+
+## Docker Commands
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' 89bd971f5f7d
+docker rm $(docker ps -q -f status=exited)
